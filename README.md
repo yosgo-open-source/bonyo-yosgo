@@ -1,6 +1,6 @@
 ## Brief
 
-Welcome YOSGO-API. Using YOSGO-API with following setps
+Welcome YOSGO-API. Using YOSGO-API with following setps. Lina is an API moudle let you create a product of seperately payment feature with a super easy way.
 
 </br>
 
