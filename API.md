@@ -86,6 +86,15 @@ return status 200
 |Content-Type|application/json|
 |yosgo-api-key|39281829309809JWIEWOOIJOI8979840234OIJW10293|
 
+##### TypeInfo
+
+```
+Date {
+  __type: 'Date',
+  iso: '2017/10/25 16:45:00'
+}
+```
+
 ##### Request body
 
 |Field|Type|Required|Description|
@@ -121,6 +130,15 @@ return status 200 and empty JSON object
 
 |Field|Type|Required|Description|
 |--------------|-----------|----|----|
+
+##### TypeInfo
+
+```
+Date {
+  __type: 'Date',
+  iso: '2017/10/25 16:45:00'
+}
+```
 
 ##### Response body
 
@@ -158,6 +176,15 @@ return status 200 and JSON Array< object >
 ##### Request params
 
 /product/:productId
+
+##### TypeInfo
+
+```
+Date {
+  __type: String,
+  iso: '2017/10/25 16:45:00'
+}
+```
 
 ##### Response body
 
@@ -201,13 +228,26 @@ return status 200 and JSON Array<object>
 |productId|string|Y|create group for specifies product|
 |note|string|N|group note|
 
+##### TypeInfo
+
+```
+GroupCreateType {
+  groupId: String
+  createdAt: Date
+}
+Date {
+  __type: String,
+  iso: '2017/10/25 16:45:00'
+}
+```
+
 ##### Response body
 
 return status 200 and JSON
 
 |Field|Type|Description|
 |--------------|-----------|----|
-|payload|{groupId, createdAt}|create return payload|
+|payload|GroupCreateType|create return payload|
 |message|string|return message when create success|
 |status|number|http create status|
 |error|string|return error when create failed|
