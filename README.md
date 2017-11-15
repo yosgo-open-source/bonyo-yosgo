@@ -2,7 +2,6 @@
 
 Welcome YOSGO-API. Using YOSGO-API with following setps
 
-</br></br>
 ### STEP.1 Create an account
 
 You can apply yosgo account [here](https://dashboard.yosgo.com/signup).
