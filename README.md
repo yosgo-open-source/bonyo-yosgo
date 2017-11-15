@@ -27,7 +27,7 @@ After create and login your account. Click with `廠商資訊` -> `開發人員�
 You can use your own ECpay account. Customer's payment will be in your ECpay account.
 
 Click with `廠商資訊` -> `金流選項`, and then 
-* `綠界收款帳戶` -> `使用我的綠界帳戶`
+* `綠界收款帳戶` -> Choose the option 使用我的綠界帳戶
 * `HaskKey`, `HashIV`, `MerchantNo` -> Enter with your own ECpay account information.
 
 </br>
