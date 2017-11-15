@@ -44,9 +44,9 @@ Before you start wrire any code. We highly recommend you can do following
 1. Read this [reminder](https://github.com/yosgo-open-source/yosgo-lina-doc/blob/master/REMINDER.md). This will help you avoid some mistake when using YOSGO API
 2. Play with our [default postman template](https://github.com/yosgo-open-source/yosgo-lina-doc/blob/master/yosgo-lina-default.postman_collection.json).
 
-Defult postman template is an example show how each YOSGO APIs work. 
+Defult postman template is an example show how each YOSGO APIs work. The steps are: `brand` -> `product` -> `group` -> `order` -> `payment`. 
 
-The steps are: `brand` -> `product` -> `group` -> `order` -> `payment`. This postman template has already mockup each YOSGO APIs structure(e.g headers setting, body json). All you need is import the template to your postman, then enter the YOUR_OWN_API_KEY and relative data.
+This postman template has already mockup each YOSGO APIs structure(e.g headers setting, body json). All you need is import the template to your postman, then enter the YOUR_OWN_API_KEY and relative data.
 
 </br>
 
