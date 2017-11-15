@@ -52,8 +52,10 @@ This postman template has already mockup each YOSGO APIs structure(e.g headers s
 
 ### STEP.6 Dashboard
 
-After finish the example you can go to dashboard to view the group, order, payment data. Here are something to notice
+After finish the example you can go to dashboard to view the group, order, payment data.
 
+ Something should know
+ 
 * Dashboard will log out after one hour. You have to login again.
 * In productDetail page. There is a button `重新整理`. If you need get the lastest data, you can click this button.
 
