@@ -358,4 +358,42 @@ OrderType {
 
 return status 200
 
+#### < Order Payment >
+
+##### HTTP request
+
+`[POST] /orders/payment`
+
+##### Request headers
+
+|Request header|Description|
+|--------------|-----------|
+|Content-Type|application/json|
+|yosgo-api-key|39281829309809JWIEWOOIJOI8979840234OIJW10293|
+
+##### Request body
+
+|Field|Type|Required|Description|
+|--------------|-----------|----|----|
+|orderId|String|Y|want payment order's id|
+|next|String|Y|payment success redirect callback uri|
+
+##### TypeInfo
+
+```
+
+```
+
+##### Response body
+
+return status 200 and JSON
+
+|Field|Type|Description|
+|--------------|-----------|----|
+|payload|OrderType|order payment return payload|
+|message|string|return message when create success|
+|status|number|http create status|
+|error|string|return error when create failed|
+
+
 ---
