@@ -12,7 +12,7 @@
 
 ## API URL
 
-- https://yosgo-api-policer.herokuapp.com/
+- https://yosgo-api-policer.herokuapp.com/_api/v1
 
 ---
 
@@ -29,7 +29,7 @@
 |Request header|Description|
 |--------------|-----------|
 |Content-Type|application/json|
-|authorization|api key (Bearer 39281829309809JWIEWOOIJOI8979840234OIJW10293)|
+|yosgo-api-key|api key (Bearer 39281829309809JWIEWOOIJOI8979840234OIJW10293)|
 
 ##### Request body
 
@@ -52,7 +52,7 @@ return status 200 and empty JSON object
 |Request header|Description|
 |--------------|-----------|
 |Content-Type|application/json|
-|authorization|api key (Bearer 39281829309809JWIEWOOIJOI8979840234OIJW10293)|
+|yosgo-api-key|api key (Bearer 39281829309809JWIEWOOIJOI8979840234OIJW10293)|
 
 ##### Request body
 
@@ -84,7 +84,7 @@ return status 200
 |Request header|Description|
 |--------------|-----------|
 |Content-Type|application/json|
-|authorization|api key (Bearer 39281829309809JWIEWOOIJOI8979840234OIJW10293)|
+|yosgo-api-key|api key (Bearer 39281829309809JWIEWOOIJOI8979840234OIJW10293)|
 
 ##### Request body
 
@@ -115,7 +115,7 @@ return status 200 and empty JSON object
 |Request header|Description|
 |--------------|-----------|
 |Content-Type|application/json|
-|authorization|api key (Bearer 39281829309809JWIEWOOIJOI8979840234OIJW10293)|
+|yosgo-api-key|api key (Bearer 39281829309809JWIEWOOIJOI8979840234OIJW10293)|
 
 ##### Request body
 
@@ -148,7 +148,7 @@ return status 200 and JSON Array< object >
 |Request header|Description|
 |--------------|-----------|
 |Content-Type|application/json|
-|authorization|api key (Bearer 39281829309809JWIEWOOIJOI8979840234OIJW10293)|
+|yosgo-api-key|api key (Bearer 39281829309809JWIEWOOIJOI8979840234OIJW10293)|
 
 ##### Request body
 
@@ -192,7 +192,7 @@ return status 200 and JSON Array<object>
 |Request header|Description|
 |--------------|-----------|
 |Content-Type|application/json|
-|authorization|api key (Bearer 39281829309809JWIEWOOIJOI8979840234OIJW10293)|
+|yosgo-api-key|api key (Bearer 39281829309809JWIEWOOIJOI8979840234OIJW10293)|
 
 ##### Request body
 
@@ -227,7 +227,7 @@ return status 200 and JSON
 |Request header|Description|
 |--------------|-----------|
 |Content-Type|application/json|
-|authorization|api key (Bearer 39281829309809JWIEWOOIJOI8979840234OIJW10293)|
+|yosgo-api-key|api key (Bearer 39281829309809JWIEWOOIJOI8979840234OIJW10293)|
 
 ##### Request body
 
@@ -281,7 +281,7 @@ return status 200 and JSON
 |Request header|Description|
 |--------------|-----------|
 |Content-Type|application/json|
-|authorization|api key (Bearer 39281829309809JWIEWOOIJOI8979840234OIJW10293)|
+|yosgo-api-key|api key (Bearer 39281829309809JWIEWOOIJOI8979840234OIJW10293)|
 
 ##### Request body
 
