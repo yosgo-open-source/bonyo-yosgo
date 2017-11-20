@@ -63,9 +63,12 @@ After finish the example you can go to dashboard to view the group, order, payme
 * Dashboard will log out after one hour. You have to login again.
 * In productDetail page. There is a button `重新整理`. If you need get the lastest data, you can click this button.
 
+<br />
 
 ### More!
 
 1. [Node.js SDK](https://www.npmjs.com/package/yosgo-lina)
 2. Any Problem? Contact us: support@yosgo.com
 3. If you find an problem or bugs. Sending an issue to us directly, we are appreciating!
+4. Here is an simple [Demo](https://yosgo-bus.herokuapp.com/) with yosgo-lina-api. 
+
