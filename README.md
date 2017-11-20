@@ -1,6 +1,10 @@
 ## Brief
 
-Welcome YOSGO-API. Using YOSGO-API with following setps. Lina is an API moudle let you create a product of seperately payment feature with a super easy way.
+Welcome to YOSGO-API. If you come here with first, Please reading this doc and following steps.
+
+**About Yosgo-Lina**
+
+Yosgo-Lina is an API moudle let you create a product of seperately payment feature with a super easy way.
 
 </br>
 
@@ -60,5 +64,8 @@ After finish the example you can go to dashboard to view the group, order, payme
 * In productDetail page. There is a button `重新整理`. If you need get the lastest data, you can click this button.
 
 
+### More!
 
-
+1. [Node.js SDK](https://www.npmjs.com/package/yosgo-lina)
+2. Any Problem? Contact us: support@yosgo.com
+3. If you find an problem or bugs. Sending an issue to us directly, we are appreciating!
