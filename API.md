@@ -1,6 +1,6 @@
 # Yosgo API
 
-# Yosgo-API-v2
+# Yosgo-API-v1
 
 ## Restfully Basic （通常）
 
@@ -103,7 +103,8 @@ Date {
 |title|String|Yes|product title|
 |description|String|Yes|description|
 |photo|File|No|file path|
-|requiredQuantity|Number|Yes|required quantity|
+|minQuantity|Number|Yes|required min quantity|
+|maxQuantity|Number|Yes|required max quantity|
 |unitPrice|Number|Yes|unit price|
 |groupDayLength|Number|Yes|create group end date expired time|
 |endDateTime|Date|Yes|end date expired time|
