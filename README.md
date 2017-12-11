@@ -67,12 +67,12 @@ After finish the example you can go to dashboard to view the group, order, payme
 
 ### Troubleshooting
 
-You can find out some common trouble [here](https://github.com/yosgo-open-source/yosgo-lina-doc/blob/master/Troubleshooting.md).
+You can find out some common troubles [here](https://github.com/yosgo-open-source/yosgo-lina-doc/blob/master/Troubleshooting.md).
 
 ### More!
 
 1. [Node.js SDK](https://www.npmjs.com/package/yosgo-lina)
-2. Any Problem? Contact us: support@yosgo.com
+2. Need instant helping? Contact us: support@yosgo.com / https://yosgo.com (with FB messenger)
 3. If you find an problem or bugs. Sending an issue to us directly, we are appreciating!
 4. Here is an simple [Demo](https://yosgo-bus.herokuapp.com/) with yosgo-lina-api. 
 
