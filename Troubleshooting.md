@@ -23,7 +23,7 @@ A: Each product has maxQuantity and minQuantity setting. If the product's maxQua
 * [ ] Make sure your account is validated by yosgo.
 * [ ] Make sure your api-key is right and same as the api-key in your dashboard.
 * [ ] Make sure each params' format is right. e.g unitPrice's format is `number` rather than `string`.
-* [ ] If you meet error when createing product or group, you can use [GET] `products` & `groups` to make sure the product or group is created or not.
+* [ ] If you meet error when createing product or group, you can use [GET] `products` or `product':productId` to make sure the product or group is created or not.
 
 If you still encounter API error. Please you can find help by
 
