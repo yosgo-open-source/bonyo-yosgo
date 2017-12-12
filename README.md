@@ -72,7 +72,10 @@ You can find out some common troubles [here](https://github.com/yosgo-open-sourc
 ### More!
 
 1. [Node.js SDK](https://www.npmjs.com/package/yosgo-lina)
-2. Need instant helping? Contact us: support@yosgo.com / https://yosgo.com (with FB messenger)
+2. Need instant helping? Contact us: 
+  * support@yosgo.com 
+  * https://yosgo.com 
+  * [Slack channel](https://join.slack.com/t/yosgo-open-source/shared_invite/enQtMjg1MjYyNDEyNTk2LTJjNzViN2IwZTJhNDZhZDE0Y2ZhNDBiOTYzODk2MWU4NWExMjhhM2FhOWJjZmVkODIwODVmMzc2MDFjYWNjN2M) for developer
 3. If you find an problem or bugs. Sending an issue to us directly, we are appreciating!
 4. Here is an simple [Demo](https://yosgo-bus.herokuapp.com/) with yosgo-lina-api. 
 
