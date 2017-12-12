@@ -73,8 +73,8 @@ You can find out some common troubles [here](https://github.com/yosgo-open-sourc
 
 
 1. Need instant helping? Contact us: 
-  * support@yosgo.com 
-  * https://yosgo.com 
-  * [Slack channel](https://join.slack.com/t/yosgo-open-source/shared_invite/enQtMjg1MjYyNDEyNTk2LTJjNzViN2IwZTJhNDZhZDE0Y2ZhNDBiOTYzODk2MWU4NWExMjhhM2FhOWJjZmVkODIwODVmMzc2MDFjYWNjN2M) for developer
+    * support@yosgo.com 
+    * https://yosgo.com 
+    * [Slack channel](https://join.slack.com/t/yosgo-open-source/shared_invite/enQtMjg1MjYyNDEyNTk2LTJjNzViN2IwZTJhNDZhZDE0Y2ZhNDBiOTYzODk2MWU4NWExMjhhM2FhOWJjZmVkODIwODVmMzc2MDFjYWNjN2M) for developer
 2. If you find an problem or bugs. Sending an issue to us directly, we are appreciating!
 
