@@ -276,6 +276,7 @@ return status 200 and JSON
 |--------------|-----------|----|----|
 |order|OrderCreateType|Y|order create required info|
 |registration|RegistrationType|Y|order registration info|
+|extraRegistrations|Array[RegistrationType]|Y|order extra registrations|
 
 ##### TypeInfo
 
