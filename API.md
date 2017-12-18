@@ -251,6 +251,66 @@ return status 200 and JSON
 |status|number|http create status|
 |error|string|return error when create failed|
 
+
+#### < READ >
+
+##### HTTP request
+
+`[GET] /groups/:groupdId`
+
+##### Request headers
+
+|Request header|Description|
+|--------------|-----------|
+|Content-Type|application/json|
+|yosgo-api-key|39281829309809JWIEWOOIJOI8979840234OIJW10293|
+
+##### Request body
+
+|Field|Type|Required|Description|
+|--------------|-----------|----|----|
+
+##### Request params
+
+/groups/:groupdId
+
+##### TypeInfo
+
+```
+OrderType {
+  orderId: String,
+  createdAt: Date
+}
+
+Date {
+  __type: String,
+  iso: '2017/10/25 16:45:00'
+}
+
+GroupType {
+  objectId: String,
+  orders: Array[OrderType],
+  product: ProductType,
+  note: String,
+  isLocked: boolean,
+  groupEndDateTime: Date,
+  createdAt: Date,
+  updatedAt: Date,
+}
+```
+
+##### Response body
+
+|Field|Type|Description|
+|--------------|----|----|
+|payload|GroupType|create return payload|
+|message|string|return message when create success|
+|status|number|http create status|
+|error|string|return error when create failed|
+
+return status 200
+
+
 ---
 
 ### Order
@@ -397,6 +457,8 @@ return status 200 and JSON
 |message|string|return message when create success|
 |status|number|http create status|
 |error|string|return error when create failed|
+
+---
 
 ### Registration
 
