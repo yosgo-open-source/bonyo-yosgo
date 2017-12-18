@@ -396,5 +396,54 @@ return status 200 and JSON
 |status|number|http create status|
 |error|string|return error when create failed|
 
+### Registration
+
+#### < READ >
+
+##### HTTP request
+
+`[GET] /registrations`
+
+##### Request headers
+
+|Request header|Description|
+|--------------|-----------|
+|Content-Type|application/json|
+|yosgo-api-key|39281829309809JWIEWOOIJOI8979840234OIJW10293|
+
+##### Request body
+
+|Field|Type|Required|Description|
+|--------------|-----------|----|----|
+|registrationIds|string|Y|query specify registrationID: "user1ID, user2ID" |
+
+
+* registrationIds is String, should follow the schema: "user1ID, user2ID"
+
+##### TypeInfo
+
+```
+RegistrationType {
+  objectId: String,
+  note: String,
+  name: String,
+  phone: String,
+  address: String,
+  email: String,
+  createdAt: Date,
+  updatedAt: Date
+}
+```
+
+##### Response body
+
+|Field|Type|Description|
+|--------------|----|----|
+|payload|RegistrationType|registrations data|
+|message|string|return message when create success|
+|status|number|http create status|
+|error|string|return error when create failed|
+
+return status 200
 
 ---
