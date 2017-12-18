@@ -334,7 +334,7 @@ return status 200
 |--------------|-----------|----|----|
 |order|OrderCreateType|Y|order create required info|
 |registration|RegistrationType|Y|order registration info|
-|extraRegistrations|Array[RegistrationType]|Y|order extra registrations|
+|extraRegistrations|Array[RegistrationType]|N|order extra registrations|
 
 ##### TypeInfo
 
@@ -356,6 +356,11 @@ RegistrationType {
 OrderType {
   orderId: String,
   createdAt: Date
+}
+
+Date {
+  __type: String,
+  iso: '2017/10/25 16:45:00'
 }
 ```
 
