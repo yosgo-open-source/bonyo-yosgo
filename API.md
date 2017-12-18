@@ -381,7 +381,10 @@ return status 200
 ##### TypeInfo
 
 ```
-
+OrderType {
+  orderId: String,
+  createdAt: Date
+}
 ```
 
 ##### Response body
