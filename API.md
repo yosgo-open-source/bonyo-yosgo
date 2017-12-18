@@ -150,7 +150,6 @@ return status 200 and JSON Array< object >
 |title|string|product title|
 |description|string|product description|
 |isActive|boolean|product is active or not|
-|requiredQuantity|number|product required quantity|
 |unitPrice|number|product unit price|
 |groupDayLength|number|product group day length|
 |endDateTime|Date|product end date time|
@@ -196,7 +195,6 @@ return status 200 and JSON Array<object>
 |title|string|product title|
 |description|string|product description|
 |isActive|boolean|product is active or not|
-|requiredQuantity|number|product required quantity|
 |unitPrice|number|product unit price|
 |groupDayLength|number|product group day length|
 |endDateTime|Date|product end date time|
