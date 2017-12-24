@@ -1,32 +1,42 @@
 {
-	"variables": [],
 	"info": {
 		"name": "yosgo-lina-default",
 		"_postman_id": "1f9c4227-7e22-9829-702d-43aaae98cf50",
 		"description": "Empty postman example. You need to start with your company API key",
-		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
 			"name": "[POST] /brands",
 			"request": {
-				"url": "https://yosgo-api-policer.herokuapp.com/_api/v1/brands",
 				"method": "POST",
 				"header": [
 					{
 						"key": "Content-Type",
-						"value": "application/json",
-						"description": ""
+						"value": "application/json"
 					},
 					{
 						"key": "yosgo-api-key",
-						"value": "YOUR_API_KEY",
-						"description": ""
+						"value": "YOUR_API_KEY"
 					}
 				],
 				"body": {
 					"mode": "raw",
 					"raw": "{\n  \"title\": \"\"\n}"
+				},
+				"url": {
+					"raw": "https://yosgo-api-policer.herokuapp.com/_api/v1/brands",
+					"protocol": "https",
+					"host": [
+						"yosgo-api-policer",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"_api",
+						"v1",
+						"brands"
+					]
 				},
 				"description": "Create a new brand."
 			},
@@ -35,23 +45,34 @@
 		{
 			"name": "[GET] /brands",
 			"request": {
-				"url": "https://yosgo-api-policer.herokuapp.com/_api/v1/brands",
 				"method": "GET",
 				"header": [
 					{
 						"key": "Content-Type",
-						"value": "application/json",
-						"description": ""
+						"value": "application/json"
 					},
 					{
 						"key": "yosgo-api-key",
-						"value": "YOUR_API_KEY",
-						"description": ""
+						"value": "YOUR_API_KEY"
 					}
 				],
 				"body": {
 					"mode": "raw",
 					"raw": "{\n  \"title\": \"\"\n}"
+				},
+				"url": {
+					"raw": "https://yosgo-api-policer.herokuapp.com/_api/v1/brands",
+					"protocol": "https",
+					"host": [
+						"yosgo-api-policer",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"_api",
+						"v1",
+						"brands"
+					]
 				},
 				"description": "Get your brands list."
 			},
@@ -60,23 +81,34 @@
 		{
 			"name": "[POST] /products",
 			"request": {
-				"url": "https://yosgo-api-policer.herokuapp.com/_api/v1/products",
 				"method": "POST",
 				"header": [
 					{
 						"key": "Content-Type",
-						"value": "application/json",
-						"description": ""
+						"value": "application/json"
 					},
 					{
 						"key": "yosgo-api-key",
-						"value": "YOUR_API_KEY",
-						"description": ""
+						"value": "YOUR_API_KEY"
 					}
 				],
 				"body": {
 					"mode": "raw",
 					"raw": "{\n  \"brandId\": \"\",\n  \"title\": \"\",\n  \"description\": \"\",\n  \"photo\": \"\",\n  \"minQuantity\": 5,\n  \"maxQuantity\": 10,\n  \"unitPrice\": 9999,\n  \"groupDayLength\": 7,\n  \"endDateTime\": {\n    \"__type\": \"Date\",\n    \"iso\": \"2018/12/25 16:45:00\"\n  },\n  \"isActive\": true\n}"
+				},
+				"url": {
+					"raw": "https://yosgo-api-policer.herokuapp.com/_api/v1/products",
+					"protocol": "https",
+					"host": [
+						"yosgo-api-policer",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"_api",
+						"v1",
+						"products"
+					]
 				},
 				"description": "Create a new product."
 			},
@@ -85,23 +117,34 @@
 		{
 			"name": "[GET] /products",
 			"request": {
-				"url": "https://yosgo-api-policer.herokuapp.com/_api/v1/products",
 				"method": "GET",
 				"header": [
 					{
 						"key": "Content-Type",
-						"value": "application/json",
-						"description": ""
+						"value": "application/json"
 					},
 					{
 						"key": "yosgo-api-key",
-						"value": "YOUR_API_KEY",
-						"description": ""
+						"value": "YOUR_API_KEY"
 					}
 				],
 				"body": {
 					"mode": "raw",
 					"raw": "{\n  \"brandId\": \"\",\n  \"title\": \"\",\n  \"description\": \"\",\n  \"requiredQuantity\": 5,\n  \"unitPrice\": 9999,\n  \"groupDayLength\": 7,\n  \"endDateTime\": \"\",\n  \"isActive\": true,\n}"
+				},
+				"url": {
+					"raw": "https://yosgo-api-policer.herokuapp.com/_api/v1/products",
+					"protocol": "https",
+					"host": [
+						"yosgo-api-policer",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"_api",
+						"v1",
+						"products"
+					]
 				},
 				"description": "Get a list of products."
 			},
@@ -110,6 +153,21 @@
 		{
 			"name": "[GET] /products/:productId",
 			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "yosgo-api-key",
+						"value": "YOUR_API_KEY"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"brandId\": \"\",\n  \"title\": \"\",\n  \"description\": \"\",\n  \"requiredQuantity\": 5,\n  \"unitPrice\": 9999,\n  \"groupDayLength\": 7,\n  \"endDateTime\": \"\",\n  \"isActive\": true,\n}"
+				},
 				"url": {
 					"raw": "https://yosgo-api-policer.herokuapp.com/_api/v1/products/:productId",
 					"protocol": "https",
@@ -124,30 +182,12 @@
 						"products",
 						":productId"
 					],
-					"query": [],
 					"variable": [
 						{
 							"key": "productId",
 							"value": ""
 						}
 					]
-				},
-				"method": "GET",
-				"header": [
-					{
-						"key": "Content-Type",
-						"value": "application/json",
-						"description": ""
-					},
-					{
-						"key": "yosgo-api-key",
-						"value": "YOUR_API_KEY",
-						"description": ""
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n  \"brandId\": \"\",\n  \"title\": \"\",\n  \"description\": \"\",\n  \"requiredQuantity\": 5,\n  \"unitPrice\": 9999,\n  \"groupDayLength\": 7,\n  \"endDateTime\": \"\",\n  \"isActive\": true,\n}"
 				},
 				"description": "Get a certain product details."
 			},
@@ -156,23 +196,34 @@
 		{
 			"name": "[POST] /groups",
 			"request": {
-				"url": "https://yosgo-api-policer.herokuapp.com/_api/v1/groups",
 				"method": "POST",
 				"header": [
 					{
 						"key": "Content-Type",
-						"value": "application/json",
-						"description": ""
+						"value": "application/json"
 					},
 					{
 						"key": "yosgo-api-key",
-						"value": "YOUR_API_KEY",
-						"description": ""
+						"value": "YOUR_API_KEY"
 					}
 				],
 				"body": {
 					"mode": "raw",
 					"raw": "{\n\t\"productId\": \"\",\n\t\"note\": \"\"\n}"
+				},
+				"url": {
+					"raw": "https://yosgo-api-policer.herokuapp.com/_api/v1/groups",
+					"protocol": "https",
+					"host": [
+						"yosgo-api-policer",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"_api",
+						"v1",
+						"groups"
+					]
 				},
 				"description": "Create a group from a certain product."
 			},
@@ -181,6 +232,21 @@
 		{
 			"name": "[GET] /groups/:groupId",
 			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "yosgo-api-key",
+						"value": "YOUR_API_KEY"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"brandId\": \"\",\n  \"title\": \"\",\n  \"description\": \"\",\n  \"requiredQuantity\": 5,\n  \"unitPrice\": 9999,\n  \"groupDayLength\": 7,\n  \"endDateTime\": \"\",\n  \"isActive\": true,\n}"
+				},
 				"url": {
 					"raw": "https://yosgo-api-policer.herokuapp.com/_api/v1/groups/:groupsId",
 					"protocol": "https",
@@ -195,30 +261,12 @@
 						"groups",
 						":groupsId"
 					],
-					"query": [],
 					"variable": [
 						{
 							"key": "groupsId",
 							"value": ""
 						}
 					]
-				},
-				"method": "GET",
-				"header": [
-					{
-						"key": "Content-Type",
-						"value": "application/json",
-						"description": ""
-					},
-					{
-						"key": "yosgo-api-key",
-						"value": "YOUR_API_KEY",
-						"description": ""
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n  \"brandId\": \"\",\n  \"title\": \"\",\n  \"description\": \"\",\n  \"requiredQuantity\": 5,\n  \"unitPrice\": 9999,\n  \"groupDayLength\": 7,\n  \"endDateTime\": \"\",\n  \"isActive\": true,\n}"
 				},
 				"description": "Get certain group detail data"
 			},
@@ -227,23 +275,34 @@
 		{
 			"name": "[POST] /orders",
 			"request": {
-				"url": "https://yosgo-api-policer.herokuapp.com/_api/v1/orders",
 				"method": "POST",
 				"header": [
 					{
 						"key": "Content-Type",
-						"value": "application/json",
-						"description": ""
+						"value": "application/json"
 					},
 					{
 						"key": "yosgo-api-key",
-						"value": "YOUR_API_KEY",
-						"description": ""
+						"value": "YOUR_API_KEY"
 					}
 				],
 				"body": {
 					"mode": "raw",
 					"raw": "{\n\t\"order\": {\n\t  \"quantity\": 1,\n\t  \"productId\": \"\",\n\t  \"groupId\": \"\"\n\t},\n\t\"registration\": {\n\t  \"name\": \"\",\n\t  \"phone\": \"\",\n\t  \"email\": \"\",\n\t  \"notes\": \"\",\n\t  \"address\": \"\"\n\t}\n}"
+				},
+				"url": {
+					"raw": "https://yosgo-api-policer.herokuapp.com/_api/v1/orders",
+					"protocol": "https",
+					"host": [
+						"yosgo-api-policer",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"_api",
+						"v1",
+						"orders"
+					]
 				},
 				"description": "Create a order from a certain group."
 			},
@@ -252,23 +311,34 @@
 		{
 			"name": "[GET] /orders",
 			"request": {
-				"url": "https://yosgo-api-policer.herokuapp.com/_api/v1/orders",
 				"method": "GET",
 				"header": [
 					{
 						"key": "Content-Type",
-						"value": "application/json",
-						"description": ""
+						"value": "application/json"
 					},
 					{
 						"key": "yosgo-api-key",
-						"value": "YOUR_API_KEY",
-						"description": ""
+						"value": "YOUR_API_KEY"
 					}
 				],
 				"body": {
 					"mode": "raw",
 					"raw": "{\n  \"brandId\": \"\",\n  \"title\": \"\",\n  \"description\": \"\",\n  \"requiredQuantity\": 5,\n  \"unitPrice\": 9999,\n  \"groupDayLength\": 7,\n  \"endDateTime\": \"\",\n  \"isActive\": true,\n}"
+				},
+				"url": {
+					"raw": "https://yosgo-api-policer.herokuapp.com/_api/v1/orders",
+					"protocol": "https",
+					"host": [
+						"yosgo-api-policer",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"_api",
+						"v1",
+						"orders"
+					]
 				},
 				"description": "Get a list of orders."
 			},
@@ -277,25 +347,78 @@
 		{
 			"name": "[POST] /order/payment",
 			"request": {
-				"url": "https://yosgo-api-policer.herokuapp.com/_api/v1/orders/payment",
 				"method": "POST",
 				"header": [
 					{
 						"key": "Content-Type",
-						"value": "application/json",
-						"description": ""
+						"value": "application/json"
 					},
 					{
 						"key": "yosgo-api-key",
-						"value": "YOUR_API_KEY",
-						"description": ""
+						"value": "YOUR_API_KEY"
 					}
 				],
 				"body": {
 					"mode": "raw",
 					"raw": "{\n\t\"orderId\": \"\",\n\t\"next\": \"\"\n}"
 				},
+				"url": {
+					"raw": "https://yosgo-api-policer.herokuapp.com/_api/v1/orders/payment",
+					"protocol": "https",
+					"host": [
+						"yosgo-api-policer",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"_api",
+						"v1",
+						"orders",
+						"payment"
+					]
+				},
 				"description": "Create a order from a certain group."
+			},
+			"response": []
+		},
+		{
+			"name": "[GET] /registrations",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "yosgo-api-key",
+						"value": "YOUR_API_KEY"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://yosgo-api-policer.herokuapp.com/_api/v1/registrations/?registrationIds=ID1,ID2,ID3,ID4",
+					"protocol": "https",
+					"host": [
+						"yosgo-api-policer",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"_api",
+						"v1",
+						"registrations",
+						""
+					],
+					"query": [
+						{
+							"key": "registrationIds",
+							"value": "ID1,ID2,ID3,ID4",
+							"equals": true
+						}
+					]
+				},
+				"description": "Query string to get list of registrations"
 			},
 			"response": []
 		}
