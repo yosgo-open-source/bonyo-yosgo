@@ -1,3 +1,9 @@
+## Important news! 
+
+Our latest docs and api reference are move to this website [https://docs.yosgo.com](https://docs.yosgo.com).
+
+Just going to [https://docs.yosgo.com](https://docs.yosgo.com) to get latest docs information, tech support!
+.
 ## Brief
 
 Welcome to YOSGO-API. If you come here with first, Please reading this doc and following steps.
